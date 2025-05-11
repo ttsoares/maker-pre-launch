@@ -37,12 +37,20 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/Manrope.ttf"]
+          "fonts": [
+            "./assets/fonts/Manrope.ttf"
+          ]
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b563c051-2bc2-47ae-a5fd-3b079cc0b846"
+      }
     }
   }
 }

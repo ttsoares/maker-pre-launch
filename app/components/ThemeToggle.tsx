@@ -15,6 +15,8 @@ export default function ThemeToggle() {
       const saved = localStorage.getItem('theme');
       if (saved === 'dark' || saved === 'light') {
         setColorScheme(saved);
+      } else {
+        setColorScheme('dark');
       }
     }
     setLoaded(true);
